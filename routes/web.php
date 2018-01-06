@@ -26,3 +26,9 @@ Route::get('/teacher_registration', function () {
 Route::get('/student_registration', function () {
     return view('student_registration');
 });
+Route::get('/registration', function () {
+    return view('registration');
+});
+Route::get('/teacher', function () {
+    return view('teacher');
+});
