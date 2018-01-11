@@ -17,12 +17,13 @@
     <div class="card card-register mx-auto mt-5">
       <div class="card-header">Register an Account</div>
       <div class="card-body">
-        <form>
+        <form method="POST" action="/doRegister">
+        {{csrf_field()}}
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Institute Name</label>
-                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" name="name" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>
           </div>
@@ -30,7 +31,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Principle Name</label>
-                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" name="p_name" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>
           </div>
@@ -38,7 +39,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Email Id</label>
-                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" name="email" id="exampleInputName" type="Email" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>
           </div>
@@ -46,7 +47,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Intitute Website</label>
-                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Addresss</label>
-                <textarea class="form-control"></textarea>
+                <textarea class="form-control" name="address"></textarea>
               </div>
             </div>
           </div>
@@ -62,11 +63,11 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Phone number</label>
-                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" name="p_number" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>
           </div>
-          <a class="btn btn-primary btn-block" href="login.html">Register</a>
+          <button type="submit" class="btn btn-primary btn-block" href="login.html">Register</button>
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="login.html">Login Page</a>
