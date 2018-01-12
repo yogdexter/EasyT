@@ -33,3 +33,4 @@ Route::get('/teacher', function () {
     return view('teacher');
 });
 Route::post('/doRegister','InstituteController@create');
+Route::post('/addTeacher','teachercontroller@create');
