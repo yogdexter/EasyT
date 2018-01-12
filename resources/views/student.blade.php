@@ -23,7 +23,7 @@ DOCTYPE html>
   <div class="card-body">
     <h4 class="card-title">student details</h4>
     <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">student</a>
+    <a href="#" class="btn btn-primary">ADD Student</a>
     <!DOCTYPE html>
 <html>
 <head>
