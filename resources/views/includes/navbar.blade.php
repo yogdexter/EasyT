@@ -1,32 +1,32 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> EasyT</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="/">
             <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">Dashboard</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <a class="nav-link" href="charts.html">
-            <i class="fa fa-fw fa-area-chart"></i>
+          <a class="nav-link" href="/teacher">
+            <i class="fa fa-fw fa-table"></i>
             <span class="nav-link-text">Teachers</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="tables.html">
+          <a class="nav-link" href="/student">
             <i class="fa fa-fw fa-table"></i>
             <span class="nav-link-text">Students</span>
           </a>
         </li> 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="tables.html">
-            <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Students</span>
+          <a class="nav-link" href="/exam">
+            <i class="fa fa-fw fa-file-text-o"></i>
+            <span class="nav-link-text">Exam</span>
           </a>
         </li>
       </ul>

@@ -26,10 +26,13 @@ Route::get('/teacher_registration', function () {
 Route::get('/student_registration', function () {
     return view('student_registration');
 });
-Route::get('/registration', function () {
-    return view('registration');
+Route::get('/student', function () {
+    return view('student');
 });
 Route::get('/teacher', function () {
     return view('teacher');
+});
+Route::get('/exam', function () {
+    return view('exam');
 });
 Route::post('/doRegister','InstituteController@create');

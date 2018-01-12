@@ -15,12 +15,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <form>
+            <form method="POST" action="/addStudent">
+              {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentname">Student Name</label>
-                    <input type="text" class="form-control" id="studentname" placeholder="Enter Student Name">
+                    <input type="text" class="form-control" name="S_name" id="studentname" placeholder="Enter Student Name">
                   </div>
                 </div>
               </div>
@@ -28,7 +29,15 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentaddress">Student Address</label>
-                    <textarea class="form-control" id="studentaddress" rows="3" placeholder="Enter Student Address"></textarea>
+                    <textarea class="form-control" name="S_address" id="studentaddress" rows="3" placeholder="Enter Student Address"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="studentemail">Email</label>
+                    <input type="Email" class="form-control" name="Email" id="studentemail" placeholder="Enter Student Email">
                   </div>
                 </div>
               </div>
@@ -36,17 +45,17 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="studentcontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" id="studentcontactnumber" placeholder="Enter Student Contact">
+                    <input type="text" class="form-control" name="P_number"  id="studentcontactnumber" placeholder="Enter Student Contact">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectgender">Gender</label>
-                    <select class="form-control" id="selectgender">
+                    <select class="form-control" name="Gender" id="selectgender">
                       <option>Select Gender</option>
-                      <option>Male</option>
-                      <option>Female</option>
-                      <option>Other</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
                     </select>
                   </div>
                 </div>
@@ -55,30 +64,30 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <input type="date" class="form-control" name="DOB" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectstandard">Select Standard</label>
-                    <select class="form-control" id="selectstandard">
+                    <select class="form-control" name="Standard" id="selectstandard">
                       <option>Select Standard</option>
-                      <option>Std 1</option>
-                      <option>Std 2</option>
-                      <option>Std 3</option>
-                      <option>Std 4</option>
-                      <option>Std 5</option>
-                      <option>Std 6</option>
-                      <option>Std 7</option>
-                      <option>Std 8</option>
-                      <option>Std 9</option>
-                      <option>Std 10</option>
+                      <option value="1">Std 1</option>
+                      <option value="2">Std 2</option>
+                      <option value="3">Std 3</option>
+                      <option value="4">Std 4</option>
+                      <option value="5">Std 5</option>
+                      <option value="6">Std 6</option>
+                      <option value="7">Std 7</option>
+                      <option value="8">Std 8</option>
+                      <option value="9">Std 9</option>
+                      <option value="10">Std 10</option>
                     </select>
                   </div>
                 </div>
               </div>
               </div>
-              <a class="btn btn-primary btn-block" href="login.html">ADD</a>
+              <button class="btn btn-primary btn-block" href="login.html">ADD</button>
         </form>
       <!-- Bootstrap core JavaScript-->
       @include('./includes/scripts')
