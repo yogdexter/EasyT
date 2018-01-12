@@ -25,7 +25,7 @@
   <div class="card-body">
     <h4 class="card-title">Teacher details</h4>
     <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">ADD Teacher</a>
     <!DOCTYPE html>
 <html>
 <head>

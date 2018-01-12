@@ -46,7 +46,7 @@
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-12">
-                <label for="exampleInputName">Intitute Website</label>
+                <label for="exampleInputName">Institute Website</label>
                 <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
             </div>

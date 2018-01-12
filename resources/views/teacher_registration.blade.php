@@ -15,12 +15,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <form>
+            <form>method="POST" action="/addTeacher">
+        {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
                     <label for="teachername">Teacher Name</label>
-                    <input type="text" class="form-control" id="teachername" placeholder="Enter Techer Name">
+                    <input type="text" class="form-control" name="t_name" id="teachername" placeholder="Enter Techer Name">
                   </div>
                 </div>
               </div>
@@ -28,7 +29,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="teacheraddress">Teacher Address</label>
-                    <textarea class="form-control" id="teacheraddress" rows="3" placeholder="Enter Teacher Address"></textarea>
+                    <textarea class="form-control" name="t_address" id="teacheraddress" rows="3" placeholder="Enter Teacher Address"></textarea>
                   </div>
                 </div>
               </div>
@@ -36,13 +37,13 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teachercontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" id="teachercontactnumber" placeholder="Enter Techer Contact">
+                    <input type="text" class="form-control" name="c_number" id="teachercontactnumber" placeholder="Enter Techer Contact">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectgender">Gender</label>
-                    <select class="form-control" id="selectgender">
+                    <select class="form-control" name="gender" id="selectgender">
                       <option>Select Gender</option>
                       <option>Male</option>
                       <option>Female</option>
@@ -55,7 +56,7 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <input type="date" class="form-control" name="dob" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
               </div>

@@ -36,3 +36,5 @@ Route::get('/exam', function () {
     return view('exam');
 });
 Route::post('/doRegister','InstituteController@create');
+Route::post('/doRegister','InstituteController@create');
+Route::post('/addTeacher','teachercontroller@create');
