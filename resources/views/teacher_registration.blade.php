@@ -15,7 +15,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <form>method="POST" action="/addTeacher">
+            <form method="POST" action="/addTeacher">
         {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
