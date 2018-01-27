@@ -27,16 +27,16 @@ Route::get('/teacher_registration', function () {
 });
 Route::get('/student_registration', function () {
     return view('student_registration');
+});   
+route::get('/add_exam',function () {
+	return view('examadd');   
 });
-Route::get('/student', function () {
-    return view('student');
-});
-Route::get('/teacher', function () {
-    return view('teacher');
-});
+Route::get('/student', 'Studentcontroller@index');
+Route::get('/teacher', 'Teachercontroller@index' );
 Route::get('/exam', function () {
     return view('exam');
 });
 Route::post('/doRegister','InstituteController@create');
 Route::post('/addTeacher','Teachercontroller@create');
 Route::post('/addStudent','StudentController@create');
+route::post('/addexam','ExamController@create');

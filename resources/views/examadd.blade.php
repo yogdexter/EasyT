@@ -15,55 +15,59 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <form method="POST" action="/addTeacher">
+            <form method="POST" action="/ADDpapers">
               {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <label for="teachername">Teacher Name</label>
-                    <input type="text" class="form-control" name="t_name" id="teachername" placeholder="Enter Techer Name">
+                    <label for="Exam date">exam date</label>
+                    <input type="text" class="form-control" name="e_date" placeholder="Enter exam date">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <label for="teacheraddress">Teacher Address</label>
-                    <textarea class="form-control" name="t_address" id="teacheraddress" rows="3" placeholder="Enter Teacher Address"></textarea>
+                    <label for="Exam subjects">subject</label>
+                    <input type "text" class="form-control" name="e_subjects"rows="3" placeholder="Enter exam subjects">
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12">
                   <div class="form-group">
-                    <label for="teachercontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" name="c_number" id="teachercontactnumber" placeholder="Enter Techer Contact">
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="form-group">
-                    <label for="selectgender">Gender</label>
-                    <select class="form-control" name="gender" id="selectgender">
-                      <option>Select Gender</option>
-                      <option>Male</option>
-                      <option>Female</option>
-                      <option>Other</option>
-                    </select>
+                    <label for="Exam description">exam description</label>
+                    <textarea class="form-control" name="e_description" placeholder="Enter exam description"><textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12">
                   <div class="form-group">
-                    <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" name="dob" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <label for="Exam time">exam time</label>
+                    <input type="text" class="form-control" name="e_time" placeholder="Enter exam description">
                   </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">ADD</button>
-        </form>
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="total">total marks</label>
+                    <input type="text" class="form-control" name="e_total" placeholder="Enter exam description">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <button type="submit"> Add</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+              
       <!-- Bootstrap core JavaScript-->
       @include('./includes/scripts')
-    </div>
   </body>
 </html>

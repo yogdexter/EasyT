@@ -41,14 +41,17 @@ DOCTYPE html>
                 <th>Birthdate</th>
                 <th>contact no.</th>
                 <th>student address</th>
-              </tr>
+              </tr>        
+              @foreach($students as $student)
               <tr>
-                <td>1</td>
-                <td>Aastha Kacha</td>
-                <td>20/12/96</td>
-                <td>9876543211</td>
-                <td>shayonacity</td>
+                <td>{{$student->id}} </td>
+                <td>{{$student->name}}</td>
+                <td>{{$student->birthdate}}</td>
+                <td>{{$student->contact}}</td>
+                <td>{{$student->address}}</td>
+                <td>
               </tr>
+              @endforeach
               <tr>
                 <td>2</td>
                 <td>Vaishali Chauhan</td>

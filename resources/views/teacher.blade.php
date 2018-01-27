@@ -41,42 +41,14 @@
           <th>Teacher id</th>
           <th>Teacher address</th>
         </tr>
+        @foreach($teachers as $teacher)
         <tr>
-          <td>1</td>
-          <td>asha</td>
-          <td>asha12@gmail.com</td>
-          <td>devcity</td>
+          <td>{{$teacher->id}}</td>
+          <td>{{$teacher->Teacher_Name}} </td>
+          <td>{{$teacher->Email}} </td>
+          <td>{{$teacher->Address}} </td>
         </tr>
-        <tr>
-          <td>2</td>
-          <td>Riya</td>
-          <td>riya44@gmail.com</td>
-          <td>nehrunagar</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Rohit</td>
-          <td>rohit6@gmail.com</td>
-          <td>sitapura</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Rahul</td>
-          <td>rahul5@gmail.com</td>
-          <td>gandhingar</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Yoshi</td>
-          <td>yoshi88@gmail.com</td>
-          <td>ghatlodiya</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Guri</td>
-          <td>guri9@gmail.com</td>
-          <td>shubhash nagar</td>
-        </tr>
+        @endforeach
       </table>
           </div>
         </div>
