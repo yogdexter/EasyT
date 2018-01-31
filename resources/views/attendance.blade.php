@@ -33,6 +33,29 @@
             <h4 class="float-left">attendance details</h4>
           </div>
           <div class="card-body">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="date" class="form-control" id="exam attendance_date" placeholder="Enter exam attendance_date">
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Select Class</label>
+                <select class="custom-select form-control">
+                  <option selected>Open this select menu</option>
+                  <option value="1">std1</option>
+                  <option value="2">std2</option>
+                  <option value="3">std3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <br>
+              <button type="submit" class="btn btn-info">Find Students</button>
+            </div>
+          </div>
               <table>
                 <tr>
                   <th>class</th>
