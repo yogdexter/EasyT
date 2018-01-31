@@ -40,3 +40,6 @@ Route::post('/doRegister','InstituteController@create');
 Route::post('/addTeacher','Teachercontroller@create');
 Route::post('/addStudent','StudentController@create');
 route::post('/addexam','ExamController@create');
+Route::get('/attendance', function () {
+    return view('attendance');
+});
