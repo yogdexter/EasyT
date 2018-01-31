@@ -44,63 +44,14 @@
           <th>Teacher DOB</th>
           <th>Teacher Email</th>
         </tr>
+        @foreach($teachers as $teacher)
         <tr>
-          <td>1</td>
-          <td>asha</td>
-          <td>devcity</td>
-          <td>1234567890</td>
-          <td>Female</td>
-          <td>01/01/2011</td>
-          <td>asha12@gmail.com</td>
-          </tr>
-        <tr>
-          <td>2</td>
-          <td>Riya</td>
-          <td>nehrunagar</td>
-          <td>1234567890</td>
-          <td>Female</td>
-          <td>01/01/2012</td>
-          <td>riya44@gmail.com</td>
-          
+          <td>{{$teacher->id}}</td>
+          <td>{{$teacher->Teacher_Name}} </td>
+          <td>{{$teacher->Email}} </td>
+          <td>{{$teacher->Address}} </td>
         </tr>
-        <tr>
-          <td>3</td>
-          <td>Rohit</td>
-          <td>sitapura</td>
-          <td>1234567890</td>
-          <td>Male</td>
-          <td>01/01/2013</td>
-          <td>rohit6@gmail.com</td>
-          
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Rahul</td>
-          <td>gandhingar</td>
-          <td>1234567890</td>
-          <td>Male</td>
-          <td>01/01/2014</td>
-          <td>rahul5@gmail.com</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Yoshi</td>
-          <td>ghatlodiya</td>
-          <td>1234567890</td>
-          <td>Female</td>
-          <td>01/01/2015</td>
-          <td>yoshi88@gmail.com</td>
-          
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Guri</td>
-          <td>shubhash nagar</td>
-          <td>1234567890</td>
-          <td>Female</td>
-          <td>01/01/2016</td>
-          <td>guri9@gmail.com</td>
-        </tr>
+        @endforeach
       </table>
           </div>
         </div>

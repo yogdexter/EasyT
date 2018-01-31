@@ -40,6 +40,13 @@
                   <th>Subjects</th>
                   <th>Exam Description</th>
                 </tr>
+                @foreach($exams as $exam)
+                <tr>
+                <td>{{$exam->exam date}}</td>
+                <td>{{$exam->subject}}</td>
+                <td>{{$exam->exam description}}</td>
+                </tr>
+                @endforeach
                 <tr>
                   <td>1/3/17</td>
                   <td>Maths</td>

@@ -69,10 +69,10 @@
                   
                 </div>
               </div>
-              <a class="btn btn-primary btn-block" href="login.html">ADD</a>
-            </form>
-            <!-- Bootstrap core JavaScript-->
-            @include('./includes/scripts')
-          </div>
-        </body>
-      </html>
+              <button type="submit" class="btn btn-primary btn-block">ADD</button>
+        </form>
+      <!-- Bootstrap core JavaScript-->
+      @include('./includes/scripts')
+    </div>
+  </body>
+</html>

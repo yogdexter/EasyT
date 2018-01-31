@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\student;
 class StudentController extends Controller
@@ -17,5 +16,11 @@ class StudentController extends Controller
     	$s->DOB =$r->DOB;
     	$s->Class_ID =$r->Standard;
     	$s->save();
+        return redirect('/student');
+    }
+    public function index(Request $r)
+    {
+        $s = student::all();
+        return view('student')->with('students',$s);    
     }
 }
