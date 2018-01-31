@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateDiscussionQuestionDetailsTable extends Migration
+class CreateDiscussionQuestionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateDiscussionQuestionDetailsTable extends Migration
      */
     public function up()
     {
-        Schema::create('Discussion_Question_Details', function (Blueprint $table) {
+        Schema::create('discussion__questions', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('U_id');
-            $table->text('Type');
-            $table->text('Q_Discussion');
+            $table->string('uid');
+            $table->text('question');
+            $table->text('description');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateDiscussionQuestionDetailsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Discussion_Question_Details');
+        Schema::dropIfExists('discussion__questions');
     }
 }

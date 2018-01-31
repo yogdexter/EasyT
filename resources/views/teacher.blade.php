@@ -36,46 +36,70 @@
           <div class="card-body">
             <table>
         <tr>
-          <th>Serial no</th>
-          <th>Teacher name</th>
-          <th>Teacher id</th>
-          <th>Teacher address</th>
+          <th>Serial No</th>
+          <th>Teacher Name</th>
+          <th>Teacher Address</th>
+          <th>Teacher Contact</th>
+          <th>Teacher Gender</th>
+          <th>Teacher DOB</th>
+          <th>Teacher Email</th>
         </tr>
         <tr>
           <td>1</td>
           <td>asha</td>
-          <td>asha12@gmail.com</td>
           <td>devcity</td>
-        </tr>
+          <td>1234567890</td>
+          <td>Female</td>
+          <td>01/01/2011</td>
+          <td>asha12@gmail.com</td>
+          </tr>
         <tr>
           <td>2</td>
           <td>Riya</td>
-          <td>riya44@gmail.com</td>
           <td>nehrunagar</td>
+          <td>1234567890</td>
+          <td>Female</td>
+          <td>01/01/2012</td>
+          <td>riya44@gmail.com</td>
+          
         </tr>
         <tr>
           <td>3</td>
           <td>Rohit</td>
-          <td>rohit6@gmail.com</td>
           <td>sitapura</td>
+          <td>1234567890</td>
+          <td>Male</td>
+          <td>01/01/2013</td>
+          <td>rohit6@gmail.com</td>
+          
         </tr>
         <tr>
           <td>4</td>
           <td>Rahul</td>
-          <td>rahul5@gmail.com</td>
           <td>gandhingar</td>
+          <td>1234567890</td>
+          <td>Male</td>
+          <td>01/01/2014</td>
+          <td>rahul5@gmail.com</td>
         </tr>
         <tr>
           <td>5</td>
           <td>Yoshi</td>
-          <td>yoshi88@gmail.com</td>
           <td>ghatlodiya</td>
+          <td>1234567890</td>
+          <td>Female</td>
+          <td>01/01/2015</td>
+          <td>yoshi88@gmail.com</td>
+          
         </tr>
         <tr>
           <td>6</td>
           <td>Guri</td>
-          <td>guri9@gmail.com</td>
           <td>shubhash nagar</td>
+          <td>1234567890</td>
+          <td>Female</td>
+          <td>01/01/2016</td>
+          <td>guri9@gmail.com</td>
         </tr>
       </table>
           </div>

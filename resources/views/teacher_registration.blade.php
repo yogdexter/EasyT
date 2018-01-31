@@ -16,7 +16,7 @@
         <div class="row">
           <div class="col-12">
             <form method="POST" action="/addTeacher">
-        {{csrf_field()}}
+              {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
@@ -59,11 +59,20 @@
                     <input type="date" class="form-control" name="dob" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
+                <div class="col-12 col-md-6">
+                  <label for="exampleInputName">Teacher Email</label>
+                  <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-row">
+                  
+                </div>
               </div>
               <a class="btn btn-primary btn-block" href="login.html">ADD</a>
-        </form>
-      <!-- Bootstrap core JavaScript-->
-      @include('./includes/scripts')
-    </div>
-  </body>
-</html>
+            </form>
+            <!-- Bootstrap core JavaScript-->
+            @include('./includes/scripts')
+          </div>
+        </body>
+      </html>

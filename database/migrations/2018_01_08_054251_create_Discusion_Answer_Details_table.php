@@ -16,8 +16,8 @@ class CreateDiscusionAnswerDetailsTable extends Migration
         Schema::create('Discusion_Answer_Details', function (Blueprint $table) {
             $table->increments('id');
             $table->text('U_id');
-            $table->text('Type');
-            $table->text('D_answer');
+            $table->text('Q_id');
+            $table->text('answer');
             $table->timestamps();
         });
     }
