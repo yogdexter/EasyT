@@ -32,8 +32,8 @@ route::get('/add_exam',function () {
 	return view('examadd');   
 });
 Route::get('/student', 'Studentcontroller@index');
-Route::get('/teacher', 'Teachercontroller@index' );
 Route::get('/exam', function () {
+Route::get('/teacher', 'Teachercontroller@index' );
     return view('exam');
 });
 Route::post('/doRegister','InstituteController@create');
@@ -42,4 +42,7 @@ Route::post('/addStudent','StudentController@create');
 route::post('/addexam','ExamController@create');
 Route::get('/attendance', function () {
     return view('attendance');
+});
+route::get('/dropout', function () {
+	return view('dropout');
 });
