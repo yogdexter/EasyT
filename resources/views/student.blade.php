@@ -36,12 +36,15 @@ DOCTYPE html>
           <div class="card-body">
             <table>
               <tr>
-                <th>Serial no</th>
-                <th>student name</th>
-                <th>Birthdate</th>
-                <th>contact no.</th>
-                <th>student address</th>
-              </tr>        
+                <th>Serial No</th>
+                <th>Student Name</th>
+                <th>student Address</th>
+                <th>student Email</th>
+                <th>Student Contact</th>
+                <th>Gender</th>
+                <th>Student DOB</th>
+                <th>Select Standard</th>
+                </tr>
               @foreach($students as $student)
               <tr>
                 <td>{{$student->id}} </td>
@@ -52,41 +55,6 @@ DOCTYPE html>
                 <td>
               </tr>
               @endforeach
-              <tr>
-                <td>2</td>
-                <td>Vaishali Chauhan</td>
-                <td>2/06/97</td>
-                <td>9123456780</td>
-                <td>subhashnagar</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Rohit Parmar</td>
-                <td>31/01/97</td>
-                <td>8765432190</td>
-                <td>geetapura</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Gayatri Gorkha</td>
-                <td>19/03/96</td>
-                <td>9812345678</td>
-                <td>gandhingar</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Akshay Dhariwal</td>
-                <td>23/09/95</td>
-                <td>8765490321</td>
-                <td>ghatlodiya</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Shivam Sharma</td>
-                <td>04/07/98</td>
-                <td>9427052035</td>
-                <td>ajadsnagar</td>
-              </tr>
             </table>
           </body>
         </html>

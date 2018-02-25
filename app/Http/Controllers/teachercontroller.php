@@ -7,6 +7,7 @@ class TeacherController extends Controller
 	public function create(Request $r)
 	{
 		$i= new Teacher;
+
 		$i->Teacher_name = $r->t_name;
 		$i->Email = "rjwfnrwjfwnfjwen";
 		$i->Address = $r->t_address;

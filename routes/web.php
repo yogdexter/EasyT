@@ -13,8 +13,12 @@
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
 Route::get('/', function () {
     return view('home');
+});
+Route::get('/land', function () {
+    return view('landing');
 });
 Route::get('/login', function () {
     return view('login');
@@ -36,9 +40,19 @@ Route::get('/exam', function () {
 Route::get('/teacher', 'Teachercontroller@index' );
     return view('exam');
 });
+Route::get('/discussion', 'DiscussionController@index');
+Route::get('/ask_question', function () {
+    return view('ask_question');
+});
+Route::get('/question_detail/{id}', 'DiscussionController@detail');
+Route::get('/submitAnswer', 'DiscussionController@submitAnswer');
+Route::post('ask_question','DiscussionController@create');
 Route::post('/doRegister','InstituteController@create');
 Route::post('/addTeacher','Teachercontroller@create');
 Route::post('/addStudent','StudentController@create');
+
+
+Route::get('/home', 'HomeController@index')->name('home');
 route::post('/addexam','ExamController@create');
 Route::get('/attendance', function () {
     return view('attendance');
@@ -46,3 +60,9 @@ Route::get('/attendance', function () {
 route::get('/dropout', function () {
 	return view('dropout');
 });
+Route::get('/teacher_editing', function () {
+    return view('teacher_editing');
+});    
+Route::get('/student_editing', function () {
+    return view('student_editing');
+});    

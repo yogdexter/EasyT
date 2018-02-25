@@ -41,7 +41,8 @@
               </div>
             </div>
             <div class="col-12 col-md-4">
-              <div class="form-group">
+              <div c
+              lass="form-group">
                 <label for="exampleFormControlInput1">Select Class</label>
                 <select class="custom-select form-control">
                   <option selected>Open this select menu</option>

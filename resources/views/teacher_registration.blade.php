@@ -59,6 +59,15 @@
                     <input type="date" class="form-control" name="dob" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
+                <div class="col-12 col-md-6">
+                  <label for="exampleInputName">Teacher Email</label>
+                  <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-row">
+                  
+                </div>
               </div>
               <button type="submit" class="btn btn-primary btn-block">ADD</button>
         </form>

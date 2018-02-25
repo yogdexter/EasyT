@@ -36,10 +36,13 @@
           <div class="card-body">
             <table>
         <tr>
-          <th>Serial no</th>
-          <th>Teacher name</th>
-          <th>Teacher id</th>
-          <th>Teacher address</th>
+          <th>Serial No</th>
+          <th>Teacher Name</th>
+          <th>Teacher Address</th>
+          <th>Teacher Contact</th>
+          <th>Teacher Gender</th>
+          <th>Teacher DOB</th>
+          <th>Teacher Email</th>
         </tr>
         @foreach($teachers as $teacher)
         <tr>
