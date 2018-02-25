@@ -21,12 +21,12 @@ class DiscussionController extends Controller
     public function index()
     {
     	$d = Discussion_Question::all();
-    	return view('Discussion_Question')->with('questions' , $d);
+    	return view('discussion')->with('questions' , $d);
     }
     public function detail($id)
     {
     	$d = Discussion_Question::where('id',$id)->first();
-    	return view('question_detail');->with('question',$d)
+    	return view('question_detail')->with('question',$d);
     }
     public function submitAnswer(Request $r)
     {

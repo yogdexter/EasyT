@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\exam;
 class ExamController extends Controller
 {
    public function create(request $r)
@@ -22,7 +22,7 @@ class ExamController extends Controller
 	public function index(Request $r)
 	{
 		$e = exam::all();
-		return view('exam')->with('exam',$e);	
+		return view('exam')->with('exams',$e);	
 
    }
 }

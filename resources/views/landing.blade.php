@@ -79,22 +79,16 @@ $(window).load(function(){
          <a class="nonblock nontext anim_swing grpelem" id="u308" href="index.html#home"><!-- simple frame --></a>
          <nav class="MenuBar clearfix grpelem" id="menuu309"><!-- horizontal box -->
           <div class="MenuItemContainer clearfix grpelem" id="u3332"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u3335" href="index.html#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3338-4"><!-- content --><p>HOME</p></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u3335" href="#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3338-4"><!-- content --><p>HOME</p></div></a>
           </div>
           <div class="MenuItemContainer clearfix grpelem" id="u317"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u320" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u321-4"><!-- content --><p>ABOUT</p></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix grpelem" id="u310"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u311" href="index.html#classes"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u313-4"><!-- content --><p>CLASSES</p></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix grpelem" id="u324"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u327" href="index.html#faq"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u330-4"><!-- content --><p>FAQ</p></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u320" href="#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u321-4"><!-- content --><p>ABOUT</p></div></a>
           </div>
           <div class="MenuItemContainer clearfix grpelem" id="u2236"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2239" href="index.html#price"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2240-4"><!-- content --><p>PRICE</p></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2239" href="#price"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2240-4"><!-- content --><p>PRICE</p></div></a>
           </div>
           <div class="MenuItemContainer clearfix grpelem" id="u2243"><!-- vertical box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2244" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2246-4"><!-- content --><p>CONTACT</p></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2244" href="#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2246-4"><!-- content --><p>CONTACT</p></div></a>
           </div>
          </nav>
         </div>
@@ -120,22 +114,22 @@ $(window).load(function(){
       <a class="nonblock nontext anim_swing mse_pre_init" id="u556" href="index.html#home"><!-- simple frame --></a>
       <nav class="MenuBar clearfix mse_pre_init" id="menuu563"><!-- horizontal box -->
        <div class="MenuItemContainer clearfix grpelem" id="u3339"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u3340" href="index.html#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3341-4"><!-- content --><p>HOME</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u3340" href="#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3341-4"><!-- content --><p>HOME</p></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem" id="u571"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u574" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u577-4"><!-- content --><p>ABOUT</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u574" href="#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u577-4"><!-- content --><p>ABOUT</p></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem" id="u592"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u595" href="index.html#classes"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u596-4"><!-- content --><p>CLASSES</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u595" href="#classes"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u596-4"><!-- content --><p>CLASSES</p></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem" id="u599"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u602" href="index.html#faq"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u603-4"><!-- content --><p>FAQ</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u602" href="#faq"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u603-4"><!-- content --><p>FAQ</p></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem" id="u2257"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2258" href="index.html#price"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2260-4"><!-- content --><p>PRICE</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u2258" href="#price"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2260-4"><!-- content --><p>PRICE</p></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem" id="u585"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u586" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u587-4"><!-- content --><p>CONTACT</p></div></a>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u586" href="#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u587-4"><!-- content --><p>CONTACT</p></div></a>
        </div>
       </nav>
      </div>
@@ -235,7 +229,7 @@ $(window).load(function(){
      </div>
     </div>
     <div class="title clearfix colelem" id="u3473-4"><!-- content -->
-     <p>Our Features</p>
+     <p id="features">Our Features</p>
     </div>
     <div class="colelem" id="u3475"><!-- simple frame --></div>
     <div class="clearfix colelem" id="pu3477-4"><!-- group -->

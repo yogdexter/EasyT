@@ -42,9 +42,9 @@
                 </tr>
                 @foreach($exams as $exam)
                 <tr>
-                <td>{{$exam->exam date}}</td>
+                <td>{{$exam->exam_date}}</td>
                 <td>{{$exam->subject}}</td>
-                <td>{{$exam->exam description}}</td>
+                <td>{{$exam->exam_description}}</td>
                 </tr>
                 @endforeach
                 <tr>

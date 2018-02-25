@@ -53,6 +53,7 @@
 										</div>
 										<small>10 Comments</small>
 									</a>
+									@endforeach
 								</div>
 							</div>
 						</div>

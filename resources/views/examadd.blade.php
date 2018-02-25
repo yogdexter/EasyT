@@ -15,12 +15,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <form method="POST" action="/ADDpapers">
+            <form method="POST" action="/ADDpapers" enctype="multipart/form-data">
               {{csrf_field()}}
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <label for="Exam date">exam date</label>
+                    <label for="Exam date">Exam date</label>
                     <input type="text" class="form-control" name="e_date" placeholder="Enter exam date">
                   </div>
                 </div>
@@ -28,7 +28,7 @@
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <label for="Exam subjects">subject</label>
+                    <label for="Exam subjects">Subject</label>
                     <input type "text" class="form-control" name="e_subjects"rows="3" placeholder="Enter exam subjects">
                   </div>
                 </div>
@@ -36,8 +36,8 @@
               <div class="row">
                 <div class="col-12">
                   <div class="form-group">
-                    <label for="Exam description">exam description</label>
-                    <textarea class="form-control" name="e_description" placeholder="Enter exam description"><textarea>
+                    <label for="Exam description">Exam description</label>
+                    <textarea class="form-control" name="e_description" placeholder="Exam description"></textarea>
                   </div>
                 </div>
               </div>
@@ -57,17 +57,24 @@
                   </div>
                 </div>
               </div>
-
               <div class="row">
-                <button type="submit"> Add</button>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label class="custom-file-label" for="customFile" name="paper">Choose file</label>
+                    <input type="file" class="form-control" id="customFile">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col"> <button type="submit" class="btn btn-info"> Add</button></div>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-              
-      <!-- Bootstrap core JavaScript-->
-      @include('./includes/scripts')
+    
+    <!-- Bootstrap core JavaScript-->
+    @include('./includes/scripts')
   </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
++|--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 |
@@ -13,12 +13,11 @@
 Route::get('/welcome', function () {
     return view('welcome');
 });
-
 Route::get('/', function () {
     return view('home');
 });
 Route::get('/land', function () {
-    return view('landing');
+    return view('newLand');
 });
 Route::get('/login', function () {
     return view('login');
@@ -35,14 +34,15 @@ Route::get('/student_registration', function () {
 route::get('/add_exam',function () {
 	return view('examadd');   
 });
+route::get('/studentnavbar',function () {
+    return view('test');   
+});
 Route::get('/student', 'Studentcontroller@index');
 Route::get('/teacher', 'Teachercontroller@index' );
-Route::get('/exam', function () {
-    return view('exam');
-});
+Route::get('/exam', 'ExamController@index');
 Route::get('/discussion', 'DiscussionController@index');
 Route::get('/ask_question', function () {
-    return view('ask_question');
+return view('ask_question');
 });
 Route::get('/question_detail/{id}', 'DiscussionController@detail');
 Route::get('/submitAnswer', 'DiscussionController@submitAnswer');
@@ -50,8 +50,6 @@ Route::post('ask_question','DiscussionController@create');
 Route::post('/doRegister','InstituteController@create');
 Route::post('/addTeacher','Teachercontroller@create');
 Route::post('/addStudent','StudentController@create');
-
-
 Route::get('/home', 'HomeController@index')->name('home');
 route::post('/addexam','ExamController@create');
 Route::get('/attendance', function () {
