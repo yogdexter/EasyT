@@ -20,6 +20,11 @@ class TeacherController extends Controller
 	public function index(Request $r)
 	{
 		$t = Teacher::all();
-		return view('teacher')->with('teachers',$t);	
+		return view('teacher')->with('teachers',$t);
+	}
+	public function showEditForm($id)
+	{
+		$t = teacher::find($id);
+		return view('teacher_editing')->with('teacher',$t);	
 	}
 }

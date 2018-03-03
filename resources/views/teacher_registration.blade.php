@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="exampleInputName">Teacher Email</label>
-                  <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter Email">
+                  <input class="form-control" name="website" id="exampleInputName" type="email" aria-describedby="nameHelp" placeholder="Enter Email">
                 </div>
               </div>
               <div class="form-group">

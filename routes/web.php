@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -21,7 +22,7 @@ Route::get('/land', function () {
 });
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
 Route::get('/registration', function () {
     return view('registration');
 });
@@ -55,3 +56,5 @@ route::post('/addexam','ExamController@create');
 Route::get('/attendance', function () {
     return view('attendance');
 });
+
+Route::get('/teacher_editing{id}','Teachercontroller@showEditForm');

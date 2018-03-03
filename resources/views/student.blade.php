@@ -48,10 +48,12 @@ DOCTYPE html>
               @foreach($students as $student)
               <tr>
                 <td>{{$student->id}} </td>
-                <td>{{$student->name}}</td>
-                <td>{{$student->birthdate}}</td>
-                <td>{{$student->contact}}</td>
-                <td>{{$student->address}}</td>
+                <td>{{$student->Name}}</td>
+                <td>{{$student->Address}}</td>
+                <td>{{$student->Contact}}</td>
+                <td>{{$student->Email}}</td>
+                <td>{{$student->Gender}}</td>
+                <td>{{$student->DOB}}</td>
                 <td>
               </tr>
               @endforeach

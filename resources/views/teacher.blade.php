@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -43,13 +43,20 @@
           <th>Teacher Gender</th>
           <th>Teacher DOB</th>
           <th>Teacher Email</th>
+          <th>Actions</th>
         </tr>
         @foreach($teachers as $teacher)
         <tr>
           <td>{{$teacher->id}}</td>
           <td>{{$teacher->Teacher_Name}} </td>
-          <td>{{$teacher->Email}} </td>
           <td>{{$teacher->Address}} </td>
+          <td>{{$teacher->Contact}} </td>
+          <td>{{$teacher->Gender}}</td>
+          <td>{{$teacher->DOB}}</td>
+          <td>{{$teacher->Email}}</td>
+          <td><a class="btn btn-primary" href="/teacher_editing/{{$teacher->id}}"><i class="fa fa-edit"></i></a>
+  <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+</td> 
         </tr>
         @endforeach
       </table>
