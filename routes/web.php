@@ -63,6 +63,4 @@ route::get('/dropout', function () {
 Route::get('/teacher_editing', function () {
     return view('teacher_editing');
 });    
-Route::get('/student_editing', function () {
-    return view('student_editing');
-});    
+Route::get('/student_editing/{id}', 'Studentcontroller@showEditForm');    

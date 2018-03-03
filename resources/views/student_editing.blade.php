@@ -21,7 +21,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentname">Student Name</label>
-                    <input type="text" class="form-control" name="S_name" id="studentname" placeholder="Enter Student Name">
+                    <input type="text" class="form-control" name="S_name" id="studentname" placeholder="Enter Student Name" value="{{$student->Name}}">
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentaddress">Student Address</label>
-                    <textarea class="form-control" name="S_address" id="studentaddress" rows="3" placeholder="Enter Student Address"></textarea>
+                    <textarea class="form-control" name="S_address" id="studentaddress" rows="3" placeholder="Enter Student Address">{{$student->Address}}</textarea>
                   </div>
                 </div>
               </div>
@@ -37,7 +37,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentemail">Email</label>
-                    <input type="Email" class="form-control" name="Email" id="studentemail" placeholder="Enter Student Email">
+                    <input type="Email" class="form-control" name="Email" id="studentemail" placeholder="Enter Student Email" value="{{$student->Email}}">
                   </div>
                 </div>
               </div>
@@ -45,13 +45,13 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="studentcontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" name="P_number"  id="studentcontactnumber" placeholder="Enter Student Contact">
+                    <input type="text" class="form-control" name="P_number"  id="studentcontactnumber" placeholder="Enter Student Contact"value="{{$student->Contact}}">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectgender">Gender</label>
-                    <select class="form-control" name="Gender" id="selectgender">
+                    <select class="form-control" name="Gender" id="selectgender" value="{{$student->Gender}}">
                       <option>Select Gender</option>
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
@@ -64,7 +64,7 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" name="DOB" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <input type="date" class="form-control" name="DOB" id="teacherDOB" placeholder="Enter Techer DOB"value="{{$student->DOB}}">
                   </div>
                 </div>
               </div>

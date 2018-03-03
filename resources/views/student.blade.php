@@ -43,15 +43,20 @@ DOCTYPE html>
                 <th>Student Contact</th>
                 <th>Gender</th>
                 <th>Student DOB</th>
-                <th>Select Standard</th>
-                </tr>
+                <th>Standard</th>
+                <th>Actions</th>
+              </tr>
               @foreach($students as $student)
               <tr>
                 <td>{{$student->id}} </td>
-                <td>{{$student->name}}</td>
-                <td>{{$student->birthdate}}</td>
-                <td>{{$student->contact}}</td>
-                <td>{{$student->address}}</td>
+                <td>{{$student->Name}}</td>
+                <td>{{$student->Address}}</td>
+                <td>{{$student->Email}}</td>
+                <td>{{$student->Contact}}</td>
+                <td>{{$student->Gender}}</td>
+                <td>{{$student->DOB}}</td>
+                <td>{{$student->Class_Id}}</td>
+                <td><a  class="btn btn-primary" href="/student_editing/{{$student->id}}"><i class="fa fa-edit"></i></a><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
                 <td>
               </tr>
               @endforeach
