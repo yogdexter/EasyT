@@ -15,6 +15,7 @@ class StudentController extends Controller
     	$s->Gender =$r->Gender;
     	$s->DOB =$r->DOB;
     	$s->Class_ID =$r->Standard;
+        $s->Teacher_Id = '1';
     	$s->save();
         return redirect('/student');
     }
@@ -22,5 +23,10 @@ class StudentController extends Controller
     {
         $s = student::all();
         return view('student')->with('students',$s);    
+    }
+    public function showEditForm($id)
+    {
+        $s = student::find($id);
+        return view('student_editing')->with('student',$s);
     }
 }

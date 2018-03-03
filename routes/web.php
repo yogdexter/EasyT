@@ -57,4 +57,10 @@ Route::get('/attendance', function () {
     return view('attendance');
 });
 
-Route::get('/teacher_editing{id}','Teachercontroller@showEditForm');
+route::get('/dropout', function () {
+	return view('dropout');
+});
+Route::get('/teacher_editing', function () {
+    return view('teacher_editing');
+});    
+Route::get('/student_editing/{id}', 'Studentcontroller@showEditForm');    

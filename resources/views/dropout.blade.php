@@ -30,7 +30,8 @@
       <div class="container-fluid">
         <div class="card">
           <div class="card-header">
-            <h4 class="float-left">attendance details</h4>
+            <h4 class="float-left">dropout
+            details</h4>
           </div>
           <div class="card-body">
           <div class="row">
@@ -41,8 +42,7 @@
               </div>
             </div>
             <div class="col-12 col-md-4">
-              <div c
-              lass="form-group">
+              <div class="form-group">
                 <label for="exampleFormControlInput1">Select Class</label>
                 <select class="custom-select form-control">
                   <option selected>Open this select menu</option>
@@ -54,7 +54,7 @@
             </div>
             <div class="col-md-4">
               <br>
-              <button type="submit" class="btn btn-info">Find Students</button>
+              <button type="submit" class="btn btn-info">submit</button>
             </div>
           </div>
               <table>
@@ -62,42 +62,35 @@
                   <th>class</th>
                   <th>date</th>
                   <th>student name</th>
-                  <th>attendance</th>
+                  <th>reason</th>
+                  <th>dropout</th>
                 </tr>
                 <tr>
                   <td>7th</td>
                   <td>7/1/18</td>
                   <td>Rishi</td>
+                  <td>taken leave</td>
                   <td><input type="checkbox"></input></td>
                 </tr>
                 <tr>
                   <td>7th</td>
                   <td>7/1/18</td>
                   <td>Ariya</td>
+                  <td>dropout</td>
                   <td><input type="checkbox"></input></td>
                 </tr>
                 <tr>
                   <td>7th</td>
                   <td>7/1/18</td>
                   <td>Sidharth</td>
+                  <td>not feeling well</td>
                   <td><input type="checkbox"></input></td>
                 </tr>
                 <tr>
                   <td>7th</td>
                   <td>7/1/18</td>
                   <td>Shaurya</td>
-                  <td><input type="checkbox"></input></td>
-                </tr>
-                <tr>
-                  <td>7th</td>
-                  <td>7/1/18</td>
-                  <td>Anika</td>
-                  <td><input type="checkbox"></input></td>
-                </tr>
-                <tr>
-                  <td>7th</td>
-                  <td>7/1/18</td>
-                  <td>Arohi</td>
+                  <td>out of station</td>
                   <td><input type="checkbox"></input></td>
                 </tr>
               </table>
