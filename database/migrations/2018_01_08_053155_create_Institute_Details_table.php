@@ -18,6 +18,9 @@ class CreateInstituteDetailsTable extends Migration
             $table->text('I_Name');
             $table->text('I_Address');
             $table->text('Principle_Name');
+            $table->text('Email_id');
+            $table->text('website');
+            $table->text('phone_number');
             $table->text('Login_Id');
             $table->text('password');
             $table->timestamps();

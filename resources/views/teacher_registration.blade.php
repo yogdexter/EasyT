@@ -29,7 +29,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="teacheraddress">Teacher Address</label>
-                    <textarea class="form-control" name="t_address" id="teacheraddress" rows="3" placeholder="Enter Teacher Address"></textarea>
+                    <textarea class="form-control" name="t_address" required="" id="teacheraddress" rows="3" placeholder="Enter Teacher Address"></textarea>
                   </div>
                 </div>
               </div>
@@ -37,17 +37,17 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teachercontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" name="c_number" id="teachercontactnumber" placeholder="Enter Techer Contact">
+                    <input type="text" class="form-control" name="c_number" required="" id="teachercontactnumber" placeholder="Enter Techer Contact">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectgender">Gender</label>
-                    <select class="form-control" name="gender" id="selectgender">
-                      <option>Select Gender</option>
-                      <option>Male</option>
-                      <option>Female</option>
-                      <option>Other</option>
+                    <select class="form-control" name="Gender" required="" id="selectgender">
+                      <option value="">Select Gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
                     </select>
                   </div>
                 </div>
@@ -56,12 +56,12 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" name="dob" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <input type="date" class="form-control" name="dob" required="" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <label for="exampleInputName">Teacher Email</label>
-                  <input class="form-control" name="website" id="exampleInputName" type="email" aria-describedby="nameHelp" placeholder="Enter Email">
+                  <input class="form-control" name="email" id="exampleInputName" type="email" aria-describedby="nameHelp" placeholder="Enter Email">
                 </div>
               </div>
               <div class="form-group">

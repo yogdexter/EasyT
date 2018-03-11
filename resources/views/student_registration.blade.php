@@ -21,7 +21,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentname">Student Name</label>
-                    <input type="text" class="form-control" name="S_name" id="studentname" placeholder="Enter Student Name">
+                    <input type="text" class="form-control" required="" name="S_name" id="studentname" placeholder="Enter Student Name">
                   </div>
                 </div>
               </div>
@@ -29,7 +29,7 @@
                 <div class="col-12">
                   <div class="form-group">
                     <label for="studentaddress">Student Address</label>
-                    <textarea class="form-control" name="S_address" id="studentaddress" rows="3" placeholder="Enter Student Address"></textarea>
+                    <textarea class="form-control" name="S_address" required="" id="studentaddress" rows="3" placeholder="Enter Student Address"></textarea>
                   </div>
                 </div>
               </div>
@@ -45,14 +45,14 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="studentcontactnumber">Contact Number</label>
-                    <input type="text" class="form-control" name="P_number"  id="studentcontactnumber" placeholder="Enter Student Contact">
+                    <input type="text" class="form-control" name="P_number" required=""  id="studentcontactnumber" placeholder="Enter Student Contact">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectgender">Gender</label>
-                    <select class="form-control" name="Gender" id="selectgender">
-                      <option>Select Gender</option>
+                    <select class="form-control" name="Gender" required="" id="selectgender">
+                      <option value="">Select Gender</option>
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
                       <option value="Other">Other</option>
@@ -64,14 +64,14 @@
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="teacherDOB">DOB</label>
-                    <input type="date" class="form-control" name="DOB" id="teacherDOB" placeholder="Enter Techer DOB">
+                    <input type="date" class="form-control" name="DOB" required="" id="teacherDOB" placeholder="Enter Techer DOB">
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="selectstandard">Select Standard</label>
-                    <select class="form-control" name="Standard" id="selectstandard">
-                      <option>Select Standard</option>
+                    <select class="form-control" name="Standard" required="" id="selectstandard">
+                      <option value="">Select Standard</option>
                       <option value="1">Std 1</option>
                       <option value="2">Std 2</option>
                       <option value="3">Std 3</option>

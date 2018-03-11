@@ -9,10 +9,10 @@ class TeacherController extends Controller
 		$i= new Teacher;
 
 		$i->Teacher_name = $r->t_name;
-		$i->Email = "rjwfnrwjfwnfjwen";
 		$i->Address = $r->t_address;
 		$i->Contact = $r->c_number;
-		$i->Gender = $r->gender;
+		$i->Email=$r->email;
+		$i->Gender = $r->Gender;
 		$i->DOB = $r->dob;
 		$i->save();
 		return redirect('/teacher');

@@ -23,7 +23,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Institute Name</label>
-                <input class="form-control" name="name" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Institute Name">
+                <input class="form-control" name="name" required="" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Institute Name">
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Principle Name</label>
-                <input class="form-control" name="p_name" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Principle Name">
+                <input class="form-control" name="p_name" required="" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Principle Name">
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Institute Website</label>
-                <input class="form-control" name="website" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter Website">
+                <input class="form-control" name="website" required="" id="exampleInputName" type="url" aria-describedby="nameHelp" placeholder="Enter Website">
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Addresss</label>
-                <textarea class="form-control" name="address"id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Addresss"></textarea>
+                <textarea class="form-control" name="address" required="" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Addresss"></textarea>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@
             <div class="form-row">
               <div class="col-md-12">
                 <label for="exampleInputName">Phone number</label>
-                <input class="form-control" name="p_number" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Phone Number">
+                <input class="form-control" name="p_number" required="" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter Phone Number">
               </div>
             </div>
           </div>
